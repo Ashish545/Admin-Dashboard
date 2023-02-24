@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+ 
+}
+
+
+
+.home{
+  /* margin: 0;
+  padding: 0; */
+  width:100%;
+  height: 100vh;
+  display: flex;
+  /* border: 2px solid green; */
+  
+
+}
+
+
+  /* navbar */
+
+
+
+.nav-section{
+  height: 100vh;
+  width: 10%;
+  position: fixed;
+  top:0;
+  left: 0;
+  /* border: 1px solid black; */
+  border-right: 1px solid silver;
+  
+}  
+
+.sidenav img{
+  width:7rem;
+  margin-left: .6rem;
+  
+}
+
+
+.icons{
+  text-align: center;
+  
+}
+
+.icons div{
+  margin-bottom: 2.5rem;
+
+}
+
+
+
+/* profile section */
+
+.profile-section{
+  position: fixed;
+  top:0;
+  left:calc(90px + 63px);
+  width:20%;
+  height:100vh;
+  /* border:1px solid rgb(242, 38, 38) */
+
+}
+
+.profile{
+text-align: center;
+margin-top: 2rem;
+
+}
+
+.profile img{
+  width:10rem;
+  border-radius: 50%;
+ 
+  
+}
+
+.data{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.data .partition{
+  /* background-color: silver; */
+  height: 4rem;
+  /* width:2%; */
+  border-right: 2px solid silver;
+  margin: 32px -58px;
+
+}
+
+.profile-section button{
+  padding: .5rem 5rem;
+  border-radius: .7rem;
+
+  border:1px solid silver;
+  margin:1.2rem 0;
+  
+}
+.profile-section h5{
+  margin-right: 6rem;
+  margin-top: 1.2rem;
+}
+
+.list{
+
+  text-align: start;
+  margin-left: 2.5rem;
+  
+  
+}
+.list div{
+  
+  padding-top: 24px;
+  padding: .5rem 1.5rem;
+  background-color: #F9EFED;
+  margin-top: 12px;
+  /* width: 100% */
+
+}
+
+
+/* multi-data  grid */  
+
+
+.multi-data{
+
+  position: fixed;
+  top:0;
+  left:calc(343px + 116px);
+  width:70%;
+  height:100vh;
+  /* border:1px solid rgb(205, 236, 45) */
+
+}
+
+.multi-data h6{
+/* color: #CCBBB8; */
+color: #B6B3B3 ;
+
+}
+
+.multi-data h5{
+  margin-bottom: 24px;
+}
+.multi-data .info{
+  border-bottom: 1px solid silver;
+}
+/* .multi-data .info h5 ,h6{
+  font-weight: 100;
+} */
+
+
+/* center row */
+
+.center-data div{
+
+  padding: .4rem;
+  border-radius: 10px;
+}
+
+.center-data div a{
+text-decoration: none;
+
+}
+
+/* Bottom-row */
+
+
+.bottom-row{
+  background-color: #F9EFED;
+  margin: 1rem 2.3rem;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.bottom-row .top-heading{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 1px solid silver;
+}
+.bottom-row .top-heading h4{
+  font-weight: 300;
+}
+
+.bottom-row .top-heading button{
+  padding: 0.5rem 5rem;
+  border-radius: 0.7rem;
+  border: 1px solid silver;
+  background-color: #fff;
+
+}
+.date{
+  border-right: 1px solid silver;
+}
+
+.Nov-data{
+  background-color: #fff;
+ padding: 5px;
+}
